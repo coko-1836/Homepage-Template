@@ -2,8 +2,7 @@
     <header>
       <div id="first-header">
       <div class="logo">
-          <a href="#" class="logo">Logo
-          </a>
+          <a href="./index.php" class="logo">DEMO SITE</a>
       </div>
       <div class="pc sns">
         <a href="#"><i class="fab fa-twitter"></i></a>
@@ -20,21 +19,26 @@
       </div>
       <nav class="sm">
         <ul>
-          <li><a href="#">NEWS</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">SERVICES</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="./page1.php" class="menu-1">BLOG</a></li>
+          <li><a href="./page2.php" class="menu-2">ABOUT</a></li>
+          <li><a href="./page3.php" class="menu-3">HOW TO USE</a></li>
+          <li><a href="./page4.php" class="menu-4">CONTACT</a></li>
+          <li><div class="sns">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          </div></li>
        </ul>
      </nav>
       <nav class="pc">  
         <ul>
-          <li><a href="#">NEWS</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">SERVICES</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="./page1.php" class="menu-1">BLOG</a></li>
+          <li><a href="./page2.php" class="menu-2">ABOUT</a></li>
+          <li><a href="./page3.php" class="menu-3">HOW TO USE</a></li>
+          <li><a href="./page4.php" class="menu-4">CONTACT</a></li>
         </ul>
       </nav>
-        <script>
+      <script>
         $('#hamburger').on('click', function(){
         $('.icon').toggleClass('close');
         $('.sm').slideToggle();
