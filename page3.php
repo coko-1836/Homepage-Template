@@ -1,5 +1,5 @@
-<?php $title = '使い方';
-$entitle= 'HOW TO USE';
+<?php $title = '';
+$entitle= '';
 $pagenumber = 3;
  include('php/config.php');
  include('php/head.php') ; 
